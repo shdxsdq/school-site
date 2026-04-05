@@ -1,0 +1,3 @@
+﻿<!DOCTYPE html>
+<html><head></head><body><div id="app">orbit-ok</div><script type="module">import * as THREE from './vendor/three/build/three.module.js'; import { OrbitControls } from './vendor/three/examples/jsm/controls/OrbitControls.js'; document.getElementById('app').textContent = (THREE.Scene && OrbitControls) ? 'orbit-ok' : 'orbit-bad';</script>
+</body></html>

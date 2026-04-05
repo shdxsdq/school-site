@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>南部县第五小学 - 走进校园</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body data-page="campus">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <p>欢迎访问南部县第五小学官方网站</p>
+      <nav class="mini-links">
+        <a href="./index.html">首页</a>
+        <a href="./news.html">校园新闻</a>
+        <a href="./gallery.html">活动相册</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./index.html">
+        <img class="brand-logo" src="./assets/images/school-logo.jpg" alt="南部县第五小学标识">
+        <div>
+          <h1>南部县第五小学</h1>
+          <p>Nanbu County Fifth Primary School</p>
+        </div>
+      </a>
+      <button class="menu-btn" aria-label="打开菜单">☰</button>
+      <ul class="nav-links">
+        <li><a data-nav="campus" href="./campus.html" class="active">走进校园</a></li>
+        <li><a data-nav="news" href="./news.html">学校动态</a></li>
+        <li><a data-nav="party" href="./party.html">党建工作</a></li>
+        <li><a data-nav="teaching" href="./teaching.html">教学教研</a></li>
+        <li><a data-nav="teachers" href="./teachers.html">教师风采</a></li>
+        <li><a data-nav="safety" href="./safety.html">安全工作</a></li>
+        <li><a data-nav="gallery" href="./gallery.html">活动相册</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="campus-hero">
+    <div class="container">
+      <p class="campus-kicker">实时三维校园导览</p>
+      <h2>保持实时渲染，随时从不同角度观察校园布局</h2>
+      <p class="campus-hero-copy">这一版把“走进校园”改成持续渲染的三维浏览模式。你可以拖拽旋转、滚轮缩放，也可以直接切换固定视角，从校门、俯瞰、教学楼和操场不同方向查看校园空间关系。</p>
+      <div class="campus-hero-stats">
+        <span>实时渲染</span>
+        <span>支持拖拽旋转</span>
+        <span>支持缩放观察</span>
+        <span>支持固定视角切换</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container campus-layout">
+      <section class="campus-stage" aria-labelledby="campus-canvas-title">
+        <h2 id="campus-canvas-title" class="sr-only">三维校园导览</h2>
+        <canvas id="campus-canvas" aria-label="校园三维导览" data-engine="three.js r183" width="694" height="518" style="touch-action: none;"></canvas>
+        <div class="campus-stage-overlay">
+          <div class="campus-stage-top">
+            <span class="campus-badge">实时三维</span>
+            <span class="campus-badge campus-badge-soft">持续渲染，可自由观察</span>
+          </div>
+          <div class="campus-stage-bottom">
+            <strong id="campus-engine-status">Three.js 引擎运行中 · r183</strong>
+            <p>拖拽旋转，滚轮缩放，点击楼栋查看信息；下方按钮可一键切换不同观察角度。</p>
+          </div>
+        </div>
+
+        <div class="campus-viewbar">
+          <button type="button" data-view="overview" class="active">总览</button>
+          <button type="button" data-view="gate">校门视角</button>
+          <button type="button" data-view="teaching">教学楼视角</button>
+          <button type="button" data-view="playground">操场视角</button>
+          <button type="button" data-view="top">俯瞰视角</button>
+        </div>
+      </section>
+
+      <aside class="campus-panel">
+        <img id="spot-image" class="campus-panel-image" src="./assets/images/hero-home-1.jpg" alt="南部县第五小学三维导览预览图">
+        <p class="campus-panel-kicker" id="spot-type">校园总览</p>
+        <h3 id="spot-name">南部县第五小学三维导览</h3>
+        <p class="campus-panel-subtitle" id="spot-subtitle">保持实时渲染，可持续拖拽和切换观察角度</p>
+        <p class="campus-panel-description" id="spot-description">当前页面不会停在静态截图，而是持续进行实时渲染。你可以自由拖拽旋转，也可以点击下方视角按钮切换到校门、教学楼、操场或俯瞰观察方式。</p>
+
+        <div class="spot-facts" id="spot-facts"><div class="spot-fact"><span>渲染状态</span><strong>持续运行</strong></div><div class="spot-fact"><span>观察方式</span><strong>拖拽 / 缩放 / 按钮切换</strong></div><div class="spot-fact"><span>布局依据</span><strong>校园平面示意</strong></div></div>
+        <div class="spot-tags" id="spot-tags"><span>实时渲染</span><span>自由观察</span><span>视角切换</span></div>
+
+        <div class="campus-actions">
+          <button id="tour-toggle" class="campus-btn" type="button">自动巡览</button>
+          <button id="reset-view" class="campus-btn campus-btn-ghost" type="button">回到总览</button>
+        </div>
+
+        <div class="campus-quicknav">
+          <button type="button" data-spot="gate"><span>校门入口</span><small>右下进入校园</small></button>
+          <button type="button" data-spot="teaching"><span>主教学楼</span><small>左上 U 形楼</small></button>
+          <button type="button" data-spot="complex"><span>综合楼</span><small>右上条形楼</small></button>
+          <button type="button" data-spot="library"><span>办公楼</span><small>左侧独立楼</small></button>
+          <button type="button" data-spot="canteen"><span>功能馆</span><small>中间连接体块</small></button>
+          <button type="button" data-spot="playground"><span>操场</span><small>下方活动区域</small></button>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 南部县第五小学 版权所有</p>
+      <p>地址：四川省南充市南部县 | 电话：13890887770</p>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('error', (event) => {
+      const hint = document.querySelector('.campus-stage-bottom p');
+      const title = document.querySelector('#campus-engine-status');
+      const description = document.querySelector('#spot-description');
+      const source = event.filename ? `（${event.filename.split('/').pop()}）` : '';
+      const message = event.message ? `${event.message}${source}` : '三维导览初始化失败';
+
+      if (title) title.textContent = 'Three.js 引擎加载失败';
+      if (hint) hint.textContent = `三维导览初始化失败：${message}`;
+      if (description) description.textContent = `三维导览初始化失败：${message}`;
+    });
+
+    window.addEventListener('unhandledrejection', (event) => {
+      const hint = document.querySelector('.campus-stage-bottom p');
+      const title = document.querySelector('#campus-engine-status');
+      const description = document.querySelector('#spot-description');
+      const reason = event.reason && event.reason.message ? event.reason.message : '模块脚本未能完成初始化';
+
+      if (title) title.textContent = 'Three.js 引擎加载失败';
+      if (hint) hint.textContent = `三维导览初始化失败：${reason}`;
+      if (description) description.textContent = `三维导览初始化失败：${reason}`;
+    });
+  </script>
+  <script src="./script.js"></script>
+  <script type="module" src="./campus-3d.js"></script>
+
+
+</body></html>

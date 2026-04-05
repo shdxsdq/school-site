@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>南部县第五小学 - 走进校园</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body data-page="campus">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <p>欢迎访问南部县第五小学官方网站</p>
+      <nav class="mini-links">
+        <a href="./index.html">首页</a>
+        <a href="./news.html">校园新闻</a>
+        <a href="./gallery.html">活动相册</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./index.html">
+        <img class="brand-logo" src="./assets/images/school-logo.jpg" alt="南部县第五小学标识">
+        <div>
+          <h1>南部县第五小学</h1>
+          <p>Nanbu County Fifth Primary School</p>
+        </div>
+      </a>
+      <button class="menu-btn" aria-label="打开菜单">☰</button>
+      <ul class="nav-links">
+        <li><a data-nav="campus" href="./campus.html" class="active">走进校园</a></li>
+        <li><a data-nav="news" href="./news.html">学校动态</a></li>
+        <li><a data-nav="party" href="./party.html">党建工作</a></li>
+        <li><a data-nav="teaching" href="./teaching.html">教学教研</a></li>
+        <li><a data-nav="teachers" href="./teachers.html">教师风采</a></li>
+        <li><a data-nav="safety" href="./safety.html">安全工作</a></li>
+        <li><a data-nav="gallery" href="./gallery.html">活动相册</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="campus-hero">
+    <div class="container">
+      <p class="campus-kicker">轻量真 3D 校园导览</p>
+      <h2>用可旋转的三维视角快速认识校园空间</h2>
+      <p class="campus-hero-copy">这是一版适合学校官网的轻量级校园导航示意模型，重点放在空间关系、节点识别和信息展示上。你可以先用它完成导览体验，后续再把真实楼栋尺寸、照片和平面图逐步替换进去。</p>
+      <div class="campus-hero-stats">
+        <span>6 个导览节点</span>
+        <span>支持旋转缩放</span>
+        <span>点击查看楼栋介绍</span>
+        <span>适配桌面与移动端</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container campus-layout">
+      <section class="campus-stage" aria-labelledby="campus-canvas-title">
+        <h2 id="campus-canvas-title" class="sr-only">三维校园导览</h2>
+        <canvas id="campus-canvas" aria-label="校园三维导览" data-engine="three.js r183" width="694" height="518" style="touch-action: none;"></canvas>
+        <div class="campus-stage-overlay">
+          <div class="campus-stage-top">
+            <span class="campus-badge">轻量真 3D</span>
+            <span class="campus-badge campus-badge-soft">示意模型，可继续精修</span>
+          </div>
+          <div class="campus-stage-bottom">
+            <strong>操作提示</strong>
+            <p>拖拽旋转视角，滚轮缩放，点击楼栋查看介绍，右侧按钮可快速跳转。</p>
+          </div>
+        </div>
+      </section>
+
+      <aside class="campus-panel">
+        <img id="spot-image" class="campus-panel-image" src="./assets/images/hero-home-1.jpg" alt="南部县第五小学三维导览预览图">
+        <p class="campus-panel-kicker" id="spot-type">校园总览</p>
+        <h3 id="spot-name">南部县第五小学三维导览</h3>
+        <p class="campus-panel-subtitle" id="spot-subtitle">从一个轻量模型开始，逐步把真实校园信息补全</p>
+        <p class="campus-panel-description" id="spot-description">当前版本以导览体验为主，用简洁体块建立校园空间关系。适合先在官网中放出校园总览、楼栋说明和导航入口，后面你可以继续增加照片、平面图、实景全景或更精细的模型。</p>
+
+        <div class="spot-facts" id="spot-facts"><div class="spot-fact"><span>导览节点</span><strong>6 个</strong></div><div class="spot-fact"><span>交互方式</span><strong>拖拽 / 缩放 / 点击</strong></div><div class="spot-fact"><span>适用场景</span><strong>官网校园展示</strong></div></div>
+        <div class="spot-tags" id="spot-tags"><span>轻量真 3D</span><span>官网可直接使用</span><span>支持后续升级</span></div>
+
+        <div class="campus-actions">
+          <button id="tour-toggle" class="campus-btn" type="button">自动巡览</button>
+          <button id="reset-view" class="campus-btn campus-btn-ghost" type="button">回到总览</button>
+        </div>
+
+        <div class="campus-quicknav">
+          <button type="button" data-spot="gate"><span>校门入口</span><small>校园第一视角</small></button>
+          <button type="button" data-spot="teaching"><span>主教学楼</span><small>课堂教学核心区</small></button>
+          <button type="button" data-spot="complex"><span>综合楼</span><small>行政与功能空间</small></button>
+          <button type="button" data-spot="library"><span>阅览空间</span><small>阅读与展示区域</small></button>
+          <button type="button" data-spot="canteen"><span>阳光食堂</span><small>生活服务区域</small></button>
+          <button type="button" data-spot="playground"><span>运动场</span><small>体育活动空间</small></button>
+        </div>
+      </aside>
+    </div>
+
+    <section class="container campus-support">
+      <div class="section-head">
+        <h2>导览说明</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h4>先做导览，再做精修</h4>
+          <p>这一版优先解决网站上的空间表达问题，让访客先知道校园里有哪些区域、彼此如何分布、每个节点能看什么内容。</p>
+        </article>
+        <article class="card">
+          <h4>楼栋信息可继续扩展</h4>
+          <p>每个节点都可以继续补充真实照片、楼栋介绍、使用功能、开放时间和楼层说明，也可以进一步接到详情页。</p>
+        </article>
+        <article class="card">
+          <h4>后续可升级真实模型</h4>
+          <p>如果你后面提供校园平面图、航拍图或 SketchUp 模型，这个页面可以平滑升级成更接近真实校园的三维导览系统。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 南部县第五小学 版权所有</p>
+      <p>地址：四川省南充市南部县 | 电话：13890887770</p>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('error', (event) => {
+      const hint = document.querySelector('.campus-stage-bottom p');
+      const description = document.querySelector('#spot-description');
+      const source = event.filename ? `（${event.filename.split('/').pop()}）` : '';
+      const message = event.message ? `${event.message}${source}` : '三维导览初始化失败';
+
+      if (hint) {
+        hint.textContent = `三维导览初始化失败：${message}`;
+      }
+
+      if (description) {
+        description.textContent = `三维导览初始化失败：${message}`;
+      }
+    });
+
+    window.addEventListener('unhandledrejection', (event) => {
+      const hint = document.querySelector('.campus-stage-bottom p');
+      const description = document.querySelector('#spot-description');
+      const reason = event.reason && event.reason.message ? event.reason.message : '模块脚本未能完成初始化';
+
+      if (hint) {
+        hint.textContent = `三维导览初始化失败：${reason}`;
+      }
+
+      if (description) {
+        description.textContent = `三维导览初始化失败：${reason}`;
+      }
+    });
+  </script>
+  <script src="./script.js"></script>
+  <script type="module" src="./campus-3d.js"></script>
+
+
+</body></html>

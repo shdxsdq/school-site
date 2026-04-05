@@ -1,0 +1,1279 @@
+﻿msedge.exe : [316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager
+.cc:30] EACPolicyManager::Create C:\Users\ynsty\AppData\Local\Temp\HeadlessEdge316812521193000 1
+At line:2 char:1
++ & 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe' --he ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([316812:292464:...6812521193000 1:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:152] EACPol
+icyStore load from disk failed: no policy file exists at C:\Users\ynsty\AppData\Local\Temp\HeadlessEdge316812521193000\
+Policy\Machine Policy
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:233] EACPol
+icyStore policy loaded: result.status=EACPolicyLoadStatusForUma(1), scope=TOKEN
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:243] EACPol
+icyStore policy load failed: No policy found on disk, scope=TOKEN
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:30] EACPo
+licyManager::Create C:\Users\ynsty\AppData\Local\Temp\HeadlessEdge316812521193000 1
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:152] EACPol
+icyStore load from disk failed: no policy file exists at C:\Users\ynsty\AppData\Local\Temp\HeadlessEdge316812521193000\
+Policy\Profile Machine Policy
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:233] EACPol
+icyStore policy loaded: result.status=EACPolicyLoadStatusForUma(1), scope=PROFILE_MACHINE
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:243] EACPol
+icyStore policy load failed: No policy found on disk, scope=PROFILE_MACHINE
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:60] EACPo
+licyManager initializing, scope=TOKEN 0x8080002c400
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:169] EACP
+olicyManager store loaded, scope=TOKEN
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:117] EACP
+olicyManager publishing policies, scope=TOKEN 0x8080002c400
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:60] EACPo
+licyManager initializing, scope=PROFILE_MACHINE 0x8080002c500
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:169] EACP
+olicyManager store loaded, scope=PROFILE_MACHINE
+[316812:292464:0405/185322.096:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:117] EACP
+olicyManager publishing policies, scope=PROFILE_MACHINE 0x8080002c500
+[316812:292464:0405/185322.098:VERBOSE1:components\variations\service\variations_field_trial_creator.cc:94] VariationsS
+eedUsage:2
+[316812:292464:0405/185322.098:VERBOSE1:components\variations\service\variations_field_trial_creator.cc:539] Variations
+SetupComplete
+[316812:292464:0405/185322.143:VERBOSE1:chrome\browser\media\webrtc\webrtc_event_log_manager.cc:122] WebRTC remote-boun
+d event logging enabled.
+[316812:292464:0405/185322.144:VERBOSE1:components\proxy_config\pref_proxy_config_tracker_impl.cc:460] 0x80c022b5500: s
+et chrome proxy config service to 0x80c022bca00
+[316812:292464:0405/185322.145:VERBOSE1:components\device_event_log\device_event_log_impl.cc:250] [18:53:22.145] Displa
+y: EVENT: screen_win.cc:1310 Displays updated, count: 1
+[316812:292464:0405/185322.145:VERBOSE1:components\device_event_log\device_event_log_impl.cc:250] [18:53:22.145] Displa
+y: EVENT: screen_win.cc:1312 Display[1] bounds=[0,0 800x600], workarea=[0,0 800x600], scale=1, rotation=0, panel_rotati
+on=0 external detected
+[316812:293104:0405/185322.147:VERBOSE1:content\browser\renderer_host\media\media_stream_manager.cc:1525] MSM::Initiali
+zeMaybeAsync([this=0x80c0230c900])
+[316812:293104:0405/185322.147:VERBOSE1:content\browser\renderer_host\media\media_stream_manager.cc:1525] MDM::MediaDev
+icesManager()
+[316812:293104:0405/185322.147:VERBOSE1:content\browser\renderer_host\media\media_stream_manager.cc:1525] MSM::MediaStr
+eamManager([this=0x80c0230c900]))
+[316812:292464:0405/185322.150:VERBOSE1:components\enterprise\browser\controller\chrome_browser_cloud_management_contro
+ller.cc:190] Cloud management controller initialization aborted as CBCM is not enabled. Please use the `--enable-chrome
+-browser-cloud-management` command line flag to enable it if you are not using the official Google Chrome build.
+[316812:292464:0405/185322.150:VERBOSE1:chrome\installer\util\install_util.cc:292] Existing version found: 146.0.3856.9
+7
+[316812:292464:0405/185322.151:VERBOSE1:components\edge_share\core\common\edge_share_features.cc:92] IsEdgeShareEnhance
+dCopyPasteEnabled returning 1
+[316812:292464:0405/185322.151:VERBOSE1:chrome\browser\enterprise\platform_auth\platform_auth_policy_observer.cc:99] Pl
+atformAuthProviderManager enabled: 0
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\cloud\user_cloud_policy_store.cc:132] [policy_typ
+e=google/chrome/user] Initiating immediate policy load from disk
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\cloud\user_cloud_policy_store.cc:249] [policy_typ
+e=google/chrome/user] No policy found on disk
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:30] EACPo
+licyManager::Create C:\Users\ynsty\AppData\Local\Temp\HeadlessEdge316812521193000\Default 1
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:152] EACPol
+icyStore load from disk failed: no policy file exists at C:\Users\ynsty\AppData\Local\Temp\HeadlessEdge316812521193000\
+Default\Policy\User Policy
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:233] EACPol
+icyStore policy loaded: result.status=EACPolicyLoadStatusForUma(1), scope=USER
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:243] EACPol
+icyStore policy load failed: No policy found on disk, scope=USER
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:60] EACPo
+licyManager initializing, scope=USER 0x80c022f4300
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:169] EACP
+olicyManager store loaded, scope=USER
+[316812:292464:0405/185322.153:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:117] EACP
+olicyManager publishing policies, scope=USER 0x80c022f4300
+[316812:292464:0405/185322.164:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:440] MutablePO2TS::MutablePO2TS
+[316812:292464:0405/185322.164:VERBOSE1:components\proxy_config\pref_proxy_config_tracker_impl.cc:460] 0x80c0279f800: s
+et chrome proxy config service to 0x80c027b4e00
+[316812:292464:0405/185322.166:VERBOSE1:components\proxy_config\pref_proxy_config_tracker_impl.cc:460] 0x80c0283ea00: s
+et chrome proxy config service to 0x80c0287c600
+[316812:292464:0405/185322.167:VERBOSE1:components\edge_share\core\common\edge_share_features.cc:92] IsEdgeShareEnhance
+dCopyPasteEnabled returning 1
+[316812:292464:0405/185322.167:VERBOSE1:components\edge_share\core\common\edge_share_features.cc:92] IsEdgeShareEnhance
+dCopyPasteEnabled returning 1
+[316812:292464:0405/185322.167:VERBOSE1:components\device_event_log\device_event_log_impl.cc:250] [18:53:22.168] Blueto
+oth: EVENT: bluetooth_api.cc:82 BluetoothAPI: 0x80c023ac780
+[316812:292464:0405/185322.169:VERBOSE1:extensions\browser\api\bluetooth_low_energy\bluetooth_low_energy_event_router.c
+c:292] Initializing BluetoothLowEnergyEventRouter.
+[316812:292464:0405/185322.170:VERBOSE1:components\edge_share\core\common\edge_share_features.cc:92] IsEdgeShareEnhance
+dCopyPasteEnabled returning 1
+[316812:292464:0405/185322.171:VERBOSE1:base\win\win_util.cc:1673] Checking if internal user
+[316812:292464:0405/185322.172:VERBOSE1:chrome\browser\enterprise\reporting\cloud_profile_reporting_service_factory.cc:
+41] Checking if CloudProfileReporting feature is enabled: 1
+[316812:292464:0405/185322.172:VERBOSE1:chrome\browser\enterprise\reporting\cloud_profile_reporting_service_factory.cc:
+50] Creating CloudProfileReportingService for profile: Default
+[316812:292464:0405/185322.172:WARNING:chrome\browser\extensions\activity_log\activity_log_policy.cc:71] Scheduling ini
+t
+[316812:292464:0405/185322.172:WARNING:chrome\browser\extensions\activity_log\activity_log_policy.cc:71] Scheduling ini
+t
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] P
+refsManager.LocalState.CachedReconnectURL =  (2026-04-05 10:53:22.176306 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] P
+refsManager.LocalState.CachedReconnectURLTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.176338 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] P
+refsManager.ProfilePrefs.CachedTargetToken =  (2026-04-05 10:53:22.176347 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] P
+refsManager.ProfilePrefs.CachedTargetTokenCV =  (2026-04-05 10:53:22.176353 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] P
+refsManager.ProfilePrefs.CachedTargetTokenTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.176359 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] P
+refsManager.LocalState.CachedReconnectURL =  (2026-04-05 10:53:22.176369 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] P
+refsManager.LocalState.CachedReconnectURLTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.176376 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] P
+refsManager.ProfilePrefs.CachedTargetToken =  (2026-04-05 10:53:22.176385 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] P
+refsManager.ProfilePrefs.CachedTargetTokenCV =  (2026-04-05 10:53:22.176391 UTC)
+[316812:292464:0405/185322.175:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] P
+refsManager.ProfilePrefs.CachedTargetTokenTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.176398 UTC)
+[316812:300040:0405/185322.177:VERBOSE1:net\disk_cache\simple\simple_index_file.cc:609] Simple Cache Index is being res
+tored from disk.
+[316812:292464:0405/185322.180:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.180:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.180:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:150] AccountReconcilor::Ac
+countReconcilor
+[316812:292464:0405/185322.180:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:180] AccountReconcilor::In
+itialize
+[316812:292464:0405/185322.181:VERBOSE1:components\edge_coupons\core\browser\coupons_data_manager.cc:360] CouponsDataMa
+nager::CouponsDataManager is_bing_identity_valid_for_enroll_: 0 is_rebates_user_: 0
+[316812:313888:0405/185322.181:VERBOSE1:net\disk_cache\simple\simple_index_file.cc:609] Simple Cache Index is being res
+tored from disk.
+[316812:315220:0405/185322.181:VERBOSE1:components\autofill\core\browser\data_model\edge_autofill_block_list_utils.cc:9
+7] Failed to read file from edge_autofill_global_block_list.json
+[316812:292464:0405/185322.182:VERBOSE1:chrome\browser\edge_onramp\service\network_primary_browser_service.cc:733] Watc
+hCrossDevicePrimaryBrowserFromPreference(): attaching listener
+[316812:292464:0405/185322.182:VERBOSE1:chrome\browser\edge_onramp\service\network_primary_browser_service.cc:767] TryL
+ogCrossDevicePrimaryBrowserFromPreference(): data not available
+[316812:292464:0405/185322.182:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension Chrome 网上应
+用店
+[316812:292464:0405/185322.182:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension Chrome 网上应用店
+ (ahfgeienlihckogmohjhadlkjgocpleb) installing/upgrading from '' to 0.2
+[316812:292464:0405/185322.183:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension Microsoft 
+Edge PDF Viewer
+[316812:292464:0405/185322.183:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension Microsoft Ed
+ge PDF Viewer (mhjfbmdgcfjbbpaeojofohoefgiehjai) installing/upgrading from '' to 1
+[316812:292464:0405/185322.183:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension Microsoft 
+Store
+[316812:292464:0405/185322.183:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension Microsoft St
+ore (iglcjdemknebjbklcgkfaebgojjphkec) installing/upgrading from '' to 0.2
+[316812:292464:0405/185322.183:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension Microsoft 
+Clipboard Extension
+[316812:292464:0405/185322.183:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension Microsoft Cl
+ipboard Extension (dgiklkfkllikcanfonkcabmbdfmgleag) installing/upgrading from '' to 1.0
+[316812:292464:0405/185322.183:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension WebRTC Ext
+ension
+[316812:292464:0405/185322.183:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension WebRTC Exten
+sion (nkeimhogjdpnpccoofpliimaahmaaome) installing/upgrading from '' to 4.3.26
+[316812:292464:0405/185322.184:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension Edge 反馈
+[316812:292464:0405/185322.184:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension Edge 反馈 (ihm
+afllikibpmigkcoadcmckbfhibefp) installing/upgrading from '' to 1.0.0.1
+[316812:292464:0405/185322.184:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension Media Inte
+rnals Services Extension
+[316812:292464:0405/185322.184:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension Media Intern
+als Services Extension (fikbjbembnmfhppjfnmfkahdhfohhjmg) installing/upgrading from '' to 2.0.0
+[316812:292464:0405/185322.184:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension WebRTC Int
+ernals Extension
+[316812:292464:0405/185322.184:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension WebRTC Inter
+nals Extension (ncbjelpjchkpbikbpkcchkhkblodoama) installing/upgrading from '' to 2.0.4
+[316812:292464:0405/185322.185:VERBOSE1:extensions\browser\extension_registrar.cc:567] AddComponentExtension Microsoft 
+Voices
+[316812:292464:0405/185322.185:VERBOSE1:extensions\browser\extension_registrar.cc:569] Component extension Microsoft Vo
+ices (jdiccldimpdaibmpdkjnbmckianbfold) installing/upgrading from '' to 1.0
+[316812:292464:0405/185322.186:VERBOSE1:chrome\browser\profiles\edge_profile_manager.cc:1218] attempt to implicit sign 
+in
+[316812:292464:0405/185322.186:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.186:VERBOSE1:chrome\browser\policy\edge_admin_center\eac_user_policy_signin_service.cc:299] 
+EACUserPolicySigninService initializing on profile ready event
+[316812:292464:0405/185322.186:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:195] EACP
+olicyManager disconnecting client and clearing policy, scope=USER
+[316812:292464:0405/185322.186:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:291] EACPol
+icyStore clearing policy, scope=USER
+[316812:292464:0405/185322.186:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:169] EACP
+olicyManager store loaded, scope=USER
+[316812:292464:0405/185322.186:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:117] EACP
+olicyManager publishing policies, scope=USER 0x80c022f4300
+[316812:292464:0405/185322.186:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:117] EACP
+olicyManager publishing policies, scope=USER 0x80c022f4300
+[316812:313600:0405/185322.191:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Edge AutoLaunch Protocols
+[316812:292464:0405/185322.191:VERBOSE1:chrome\browser\component_updater\hyphenation_component_installer.cc:162] Regist
+ering Hyphenation component.
+[316812:300012:0405/185322.191:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+CRLSet
+[316812:292464:0405/185322.191:VERBOSE1:chrome\browser\component_updater\trust_token_key_commitments_component_installe
+r.cc:22] Registering Trust Token Key Commitments component.
+[316812:292464:0405/185322.191:VERBOSE1:chrome\browser\component_updater\edge_autofill_component_installer.cc:223] Regi
+stering Autofill component.
+[316812:292464:0405/185322.191:VERBOSE1:chrome\browser\component_updater\first_party_sets_component_installer.cc:37] Re
+gistering Related Website Sets component.
+[316812:292464:0405/185322.191:VERBOSE1:components\component_updater\installer_policies\edge_sidebar_component_installe
+r.cc:278] Feature disabled, not registering EdgeSidebar component
+[316812:292464:0405/185322.191:VERBOSE1:components\component_updater\installer_policies\edge_entity_extraction_componen
+t_installer.cc:613] Feature disabled, not registering EdgeEntityExtraction component
+[316812:292464:0405/185322.191:VERBOSE1:components\component_updater\installer_policies\edge_arbitration_component_inst
+aller.cc:229] Feature disabled, not registering EdgeArbitration component
+[316812:292464:0405/185322.191:VERBOSE1:components\component_updater\installer_policies\edge_signal_triggers_component_
+installer.cc:348] Feature disabled, not registering EdgeSignalTriggers component
+[316812:292464:0405/185322.191:VERBOSE1:components\component_updater\installer_policies\edge_3p_serp_component_installe
+r.cc:209] Feature disabled, not registering Edge3pSerp component
+[316812:292464:0405/185322.191:VERBOSE1:chrome\browser\component_updater\edge_llm_runtime_installer.cc:280] EdgeLLM: Pl
+atform compatibility check passed
+[316812:292464:0405/185322.191:VERBOSE1:chrome\browser\browser_process_impl.cc:1747] BrowserProcessImpl::TryCreateEdgeK
+ioskManager: called when not requested
+[316812:292464:0405/185322.194:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1719] AddKeepAlive(Default, kOffTheR
+ecordProfile). keep_alives=[kWaitingForFirstBrowserWindow (1), kOffTheRecordProfile (1)]
+[316812:316456:0405/185322.195:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Domain Actions
+[316812:313600:0405/185322.195:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Hyphenation
+[316812:300040:0405/185322.195:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+MEI Preload
+[316812:292464:0405/185322.195:VERBOSE1:components\edge_share\core\common\edge_share_features.cc:92] IsEdgeShareEnhance
+dCopyPasteEnabled returning 1
+[316812:300012:0405/185322.195:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Origin Trials
+[316812:300040:0405/185322.195:VERBOSE1:components\component_updater\component_installer.cc:352] Preinstalled component
+ found for MEI Preload at C:\Program Files (x86)\Microsoft\Edge\Application\146.0.3856.97\MEIPreload with version 1.0.7
+.1652906823.
+[316812:316456:0405/185322.196:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Speech Recognition
+[316812:315220:0405/185322.196:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Subresource Filter Rules
+[316812:319124:0405/185322.196:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Trust Protection Lists
+[316812:299496:0405/185322.196:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Trust Token Key Commitments
+[316812:313600:0405/185322.196:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Widevine Content Decryption Module
+[316812:313888:0405/185322.196:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+PKI Metadata
+[316812:313600:0405/185322.196:VERBOSE1:components\component_updater\component_installer.cc:352] Preinstalled component
+ found for Widevine Content Decryption Module at C:\Program Files (x86)\Microsoft\Edge\Application\146.0.3856.97\Widevi
+neCdm with version 4.10.2934.0.
+[316812:292464:0405/185322.196:VERBOSE1:components\proxy_config\pref_proxy_config_tracker_impl.cc:460] 0x80c03195780: s
+et chrome proxy config service to 0x80c032d0200
+[316812:319124:0405/185322.196:VERBOSE1:components\component_updater\component_installer.cc:352] Preinstalled component
+ found for Trust Protection Lists at C:\Program Files (x86)\Microsoft\Edge\Application\146.0.3856.97\Trust Protection L
+ists with version 1.0.0.36.
+[316812:300012:0405/185322.197:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Zxcvbn Data Dictionaries
+[316812:292464:0405/185322.197:VERBOSE1:chrome\browser\ui\edge_pinned_sites\pinned_sites_launcher.cc:152] Launch start,
+ command_line='"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --headless --disable-gpu --enable-logging
+=stderr --v=1 --virtual-time-budget=5000 --inprivate --noerrdialogs --no-first-run --user-data-dir="C:\Users\ynsty\AppD
+ata\Local\Temp\HeadlessEdge316812521193000" --flag-switches-begin --flag-switches-end http://localhost:8080/campus.html
+'
+[316812:292464:0405/185322.198:VERBOSE1:chrome\browser\ui\startup\startup_browser_creator_edge_utils.cc:1323] Spotlight
+Launch::Command line: http://localhost:8080/campus.html
+[316812:292464:0405/185322.198:VERBOSE1:chrome\browser\ui\startup\startup_browser_creator_edge_utils.cc:1355] Spotlight
+Launch::Not a protocol launch.
+[316812:300040:0405/185322.198:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Autofill Data
+[316812:299496:0405/185322.200:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Edge Data Protection Lists
+[316812:316456:0405/185322.200:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Well Known Domains
+[316812:315220:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Safety Tips
+[316812:319092:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Edge Shopping
+[316812:313600:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Provenance Data
+[316812:313888:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Provenance Data Input Vectors
+[316812:321144:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Provenance Data Allow List URLs
+[316812:310692:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Edge Travel
+[316812:319124:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Typosquatting
+[316812:300012:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Edge Video Super Resolution
+[316812:300040:0405/185322.202:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+EADPData Component
+[316812:299496:0405/185322.203:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Edge Wallet
+[316812:316456:0405/185322.203:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Web Notifications Deny List
+[316812:317024:0405/185322.203:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Workspaces Navigation
+[316812:315220:0405/185322.203:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Edge Notifications Component
+[316812:319092:0405/185322.203:VERBOSE1:components\component_updater\component_installer.cc:517] StartRegistration for 
+Edge Improved Recovery
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete ah
+fgeienlihckogmohjhadlkjgocpleb success:0
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete mh
+jfbmdgcfjbbpaeojofohoefgiehjai success:0
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete ig
+lcjdemknebjbklcgkfaebgojjphkec success:0
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete dg
+iklkfkllikcanfonkcabmbdfmgleag success:0
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete nk
+eimhogjdpnpccoofpliimaahmaaome success:0
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete ih
+mafllikibpmigkcoadcmckbfhibefp success:0
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete fi
+kbjbembnmfhppjfnmfkahdhfohhjmg success:0
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete nc
+bjelpjchkpbikbpkcchkhkblodoama success:0
+[316812:293104:0405/185322.213:VERBOSE1:extensions\browser\content_verifier\content_verifier.cc:953] OnFetchComplete jd
+iccldimpdaibmpdkjnbmckianbfold success:0
+[316812:307336:0405/185322.220:VERBOSE1:components\signin\public\webdata\token_service_table.cc:248] Loaded tokens: res
+ult = 3 ; number of tokens loaded = 0
+[316812:292464:0405/185322.230:VERBOSE1:chrome\browser\edge_arbitration_service\arbitration_experience_manager.cc:285] 
+ArbitrationExperienceManager::AddListener Failed. Service instance is null
+[316812:292464:0405/185322.233:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:520] OnThem
+eChanged() start
+[316812:292464:0405/185322.233:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:357] GetSiz
+edIconImage() start, size=20
+[316812:292464:0405/185322.233:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:504] AddedT
+oWidget() start
+[316812:292464:0405/185322.235:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:76] Closing omnibox pop
+up with reason: kRevertAll
+[316812:292464:0405/185322.236:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:76] Closing omnibox pop
+up with reason: kBrowserWidgetMoved
+[316812:292464:0405/185322.238:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:677] Layout
+() start
+[316812:292464:0405/185322.239:VERBOSE1:components\proxy_config\pref_proxy_config_tracker_impl.cc:460] 0x80c03432a00: s
+et chrome proxy config service to 0x80c03615800
+[316812:292464:0405/185322.241:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:520] OnThem
+eChanged() start
+[316812:292464:0405/185322.241:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:357] GetSiz
+edIconImage() start, size=20
+[316812:292464:0405/185322.242:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:357] GetSiz
+edIconImage() start, size=20
+[316812:292464:0405/185322.249:VERBOSE1:components\edge_coupons\core\browser\coupons_data_manager.cc:360] CouponsDataMa
+nager::CouponsDataManager is_bing_identity_valid_for_enroll_: 0 is_rebates_user_: 0
+[316812:292464:0405/185322.251:VERBOSE1:chrome\browser\ui\views\frame\windowed_find_bar_focus_proxy_view_win.cc:65] OnW
+idgetActivationChanged - active: 1 focused: 0
+[316812:292464:0405/185322.252:VERBOSE1:chrome\browser\edge_shell\spotlight_launch_monitor_win.cc:190] Return IsObserve
+rEnabled:0,IsTelemetryTrackingEnabled:0
+[316812:292464:0405/185322.252:VERBOSE1:chrome\browser\first_run\first_run.cc:1799] Active web content coming out to be
+ null
+[316812:292464:0405/185322.286:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1719] AddKeepAlive(Default, kExtensi
+onUpdater). keep_alives=[kWaitingForFirstBrowserWindow (1), kOffTheRecordProfile (1), kExtensionUpdater (1)]
+[316812:292464:0405/185322.287:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Edge AutoLaunch Protocols
+[316812:292464:0405/185322.287:VERBOSE1:components\component_updater\component_updater_service.cc:171] CrxUpdateService
+ starting up. First update attempt will take place in 60 s seconds. Next update attempt will take place in 36000 s seco
+nds. 
+[316812:292464:0405/185322.287:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ CRLSet
+[316812:292464:0405/185322.287:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Domain Actions
+[316812:292464:0405/185322.287:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Hyphenation
+[316812:292464:0405/185322.287:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Origin Trials
+[316812:292464:0405/185322.287:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ MEI Preload
+[316812:292464:0405/185322.287:VERBOSE1:components\component_updater\component_installer.cc:654] Component ready, versi
+on 1.0.7.1652906823 in C:\Program Files (x86)\Microsoft\Edge\Application\146.0.3856.97\MEIPreload
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Trust Token Key Commitments
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Speech Recognition
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Subresource Filter Rules
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Widevine Content Decryption Module
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:654] Component ready, versi
+on 4.10.2934.0 in C:\Program Files (x86)\Microsoft\Edge\Application\146.0.3856.97\WidevineCdm
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ PKI Metadata
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Trust Protection Lists
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:654] Component ready, versi
+on 1.0.0.36 in C:\Program Files (x86)\Microsoft\Edge\Application\146.0.3856.97\Trust Protection Lists
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Zxcvbn Data Dictionaries
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Autofill Data
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Edge Data Protection Lists
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Well Known Domains
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Safety Tips
+[316812:292464:0405/185322.288:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Edge Shopping
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Provenance Data
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Provenance Data Input Vectors
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Edge Travel
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Provenance Data Allow List URLs
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Typosquatting
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Edge Video Super Resolution
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ EADPData Component
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Edge Wallet
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Web Notifications Deny List
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Workspaces Navigation
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Edge Notifications Component
+[316812:292464:0405/185322.289:VERBOSE1:components\component_updater\component_installer.cc:596] FinishRegistration for
+ Edge Improved Recovery
+[316812:292464:0405/185322.290:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:813] MutablePO2TS::OnWebDataServiceRequestDone. Result type: 6
+[316812:292464:0405/185322.290:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:886] MutablePO2TS::LoadAllCredentialsIntoMemory; 0 credential(s).
+[316812:292464:0405/185322.290:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.290:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.290:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.291:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.291:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.291:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.291:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.291:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.304:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:319108:0405/185322.306:INFO:components\edge_auth\oneauth\oneauth_config.cc:179] EventName: TransactionMicrosoft
+EdgeWin32
+[316812:319108:0405/185322.306:INFO:components\edge_auth\oneauth\oneauth_config.cc:180] SessionId: d9bf1e26-11fc-48fc-8
+049-65dd6b000031
+[316812:319108:0405/185322.306:INFO:components\edge_auth\oneauth\oneauth_config.cc:181] RecommendedTelemetryRegion: GLO
+BAL
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:183] IsInstrumentationError: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: SamplingR
+ate, value: 0.25
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: eventtype
+, value: authentication
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: sessionid
+, value: d9bf1e26-11fc-48fc-8049-65dd6b000031
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: devicepro
+filetelemetryid, value: 10d85e66c756c1214487ac6a0069de7ff58a1f220294bdbe6749ef70811df914
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_M
+saAccountCount, value: 1
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: appname, 
+value: MicrosoftEdge
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: identitys
+ervice, value: Unknown
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_G
+enericAccountCount, value: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_A
+ppId, value: com.microsoft.Edge
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: authoutco
+me, value: failed
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: error, va
+lue: 2
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_S
+ubStatus, value: 6201
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_A
+ctiveFlights, value: {"1005":1,"1012":1,"1018":1,"1040":1,"1041":1,"1048":1,"31":1,"42":1,"44":1}
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_v
+ersion, value: 9.1.0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: appaudien
+ce, value: production
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: correlati
+onid, value: 348bf6f0-1e9e-4a93-bed7-93c4d806c704
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_D
+omain, value: com.microsoft.oneauth
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_T
+ag, value: 513z3
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_S
+ystemErrorCode, value: 2147943717
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_E
+xecutionFlow, value: {"de":0,"ef":[{"t":"9zkae","tid":2,"ts":0,"l":2},{"t":"4p5fw","tid":2,"ts":0,"l":2},{"t":"4p5fv","
+tid":2,"ts":0,"l":2},{"t":"4p5fv","tid":2,"ts":0,"l":2},{"t":"646u1","tid":2,"ts":0,"l":2},{"t":"4s7uc","tid":2,"ts":0,
+"l":2},{"t":"4sufd","tid":2,"ts":0,"s":2,"l":2},{"t":"4swgg","tid":2,"ts":0,"s":1,"l":2},{"t":"4swgf","tid":2,"ts":0,"s
+":1,"l":2},{"t":"4swgi","tid":5,"ts":0,"s":1,"l":2},{"t":"8b2yn","tid":5,"ts":0,"l":2},{"t":"8dqkx","tid":5,"ts":0,"l":
+2},{"t":"8dqil","tid":5,"ts":0,"l":2},{"t":"8b2hr","tid":5,"ts":0,"l":2},{"t":"8b2hs","tid":5,"ts":0,"l":2},{"t":"5b8fg
+","tid":5,"ts":0,"l":2},{"t":"694nj","tid":5,"ts":0,"l":2,"a":10,"ie":0},{"t":"4n641","tid":5,"ts":0,"l":2},{"t":"4wqnh
+","tid":5,"ts":0,"l":2},{"t":"4vw1c","tid":5,"ts":7,"l":2},{"t":"4vw1b","tid":5,"ts":7,"l":2},{"t":"4ittz","tid":5,"ts"
+:7,"l":2},{"t":"4wqni","tid":5,"ts":7,"l":2},{"t":"4wqnf","tid":5,"ts":21,"l":2},{"t":"4vw1a","tid":5,"ts":26,"l":2},{"
+t":"4wqm5","tid":5,"ts":26,"l":2},{"t":"4wqm7","tid":5,"ts":26,"l":2},{"t":"4umml","tid":5,"ts":38,"l":2},{"t":"4wqnf",
+"tid":5,"ts":38,"l":2},{"t":"6m025","tid":5,"ts":45,"l":2},{"t":"694nk","tid":5,"ts":45,"l":2,"a":10,"ie":1},{"t":"8dqk
+1","tid":5,"ts":45,"l":2},{"t":"646u1","tid":5,"ts":45,"l":2},{"t":"4c10b","tid":5,"ts":45,"l":2},{"t":"4c10a","tid":5,
+"ts":45,"l":2},{"t":"6b224","tid":5,"ts":45,"l":2},{"t":"49ayy","tid":5,"ts":45,"l":2},{"t":"513z3","tid":5,"ts":45,"e"
+:1200,"l":4},{"t":"8drb8","tid":5,"ts":45,"e":2,"l":4},{"t":"9zkad","tid":5,"ts":46,"l":2}],"t":[{"a":0,"t":1},{"a":10,
+"t":45,"c":1}]}
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_A
+adAccountCount, value: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_E
+rrorCode, value: 1200
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: uploadid,
+ value: 02c3567c-2362-4063-959e-75b058403972
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: actiontyp
+e, value: oneauthtransaction
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: appver, v
+alue: 146.0.3856.97
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_a
+pi, value: signinsilently
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:202] Integer type data key: platform
+, value: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:202] Integer type data key: count, v
+alue: 1
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: durati
+on_min, value: 46
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: durati
+on_max, value: 46
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: endtim
+e, value: 1775386402307
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: durati
+on_sum, value: 46
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: startt
+ime, value: 1775386402261
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:220] Bool type data key: FullDataCli
+ent, value: 1
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:220] Bool type data key: issilent, v
+alue: 1
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:179] EventName: ActionMicrosoftEdgeW
+in32
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:180] SessionId: d9bf1e26-11fc-48fc-8
+049-65dd6b000031
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:181] RecommendedTelemetryRegion: GLO
+BAL
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:183] IsInstrumentationError: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: eventtype
+, value: authentication
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: sessionid
+, value: d9bf1e26-11fc-48fc-8049-65dd6b000031
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: appver, v
+alue: 146.0.3856.97
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: appname, 
+value: MicrosoftEdge
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: appaudien
+ce, value: production
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: identitys
+ervice, value: Unknown
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_api_
+name, value: SignInSilently
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_msal
+_version, value: 9.1.0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_star
+t_time, value: 2026-04-05T10:53:22.000Z
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_v
+ersion, value: 9.1.0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_api_
+error_context, value: (pii)
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_corre
+lation_id, value: 348bf6f0-1e9e-4a93-bed7-93c4d806c704
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_is_s
+uccessful, value: false
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_auth
+_flow, value: Broker
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_orig
+inal_authority, value: https://login.microsoftonline.com/consumers
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_brok
+er_app_used, value: true
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_requ
+est_eligible_for_broker, value: true
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_ui_al
+lowed, value: false
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: actiontyp
+e, value: msal
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_silen
+t_code, value: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_requ
+est_duration, value: 45
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_ui_vi
+sible, value: false
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_E
+xecutionFlow, value: {"de":0,"ef":[{"t":"9zkae","tid":2,"ts":0,"l":2},{"t":"4p5fw","tid":2,"ts":0,"l":2},{"t":"4p5fv","
+tid":2,"ts":0,"l":2},{"t":"4p5fv","tid":2,"ts":0,"l":2},{"t":"646u1","tid":2,"ts":0,"l":2},{"t":"4s7uc","tid":2,"ts":0,
+"l":2},{"t":"4sufd","tid":2,"ts":0,"s":2,"l":2},{"t":"4swgg","tid":2,"ts":0,"s":1,"l":2},{"t":"4swgf","tid":2,"ts":0,"s
+":1,"l":2},{"t":"4swgi","tid":5,"ts":0,"s":1,"l":2},{"t":"8b2yn","tid":5,"ts":0,"l":2},{"t":"8dqkx","tid":5,"ts":0,"l":
+2},{"t":"8dqil","tid":5,"ts":0,"l":2},{"t":"8b2hr","tid":5,"ts":0,"l":2},{"t":"8b2hs","tid":5,"ts":0,"l":2},{"t":"5b8fg
+","tid":5,"ts":0,"l":2},{"t":"694nj","tid":5,"ts":0,"l":2,"a":10,"ie":0},{"t":"4n641","tid":5,"ts":0,"l":2},{"t":"4wqnh
+","tid":5,"ts":0,"l":2},{"t":"4vw1c","tid":5,"ts":7,"l":2},{"t":"4vw1b","tid":5,"ts":7,"l":2},{"t":"4ittz","tid":5,"ts"
+:7,"l":2},{"t":"4wqni","tid":5,"ts":7,"l":2},{"t":"4wqnf","tid":5,"ts":21,"l":2},{"t":"4vw1a","tid":5,"ts":26,"l":2},{"
+t":"4wqm5","tid":5,"ts":26,"l":2},{"t":"4wqm7","tid":5,"ts":26,"l":2},{"t":"4umml","tid":5,"ts":38,"l":2},{"t":"4wqnf",
+"tid":5,"ts":38,"l":2},{"t":"6m025","tid":5,"ts":45,"l":2},{"t":"694nk","tid":5,"ts":45,"l":2,"a":10,"ie":1},{"t":"8dqk
+1","tid":5,"ts":45,"l":2},{"t":"646u1","tid":5,"ts":45,"l":2},{"t":"4c10b","tid":5,"ts":45,"l":2},{"t":"4c10a","tid":5,
+"ts":45,"l":2},{"t":"6b224","tid":5,"ts":45,"l":2},{"t":"49ayy","tid":5,"ts":45,"l":2},{"t":"513z3","tid":5,"ts":45,"e"
+:1200,"l":4},{"t":"8drb8","tid":5,"ts":45,"e":2,"l":4},{"t":"9zkad","tid":5,"ts":46,"l":2}],"t":[{"a":0,"t":1},{"a":10,
+"t":45,"c":1}]}
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_serve
+r_error_code, value: -2147188724
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_promp
+t_behavior, value: none
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_clien
+t_id, value: 82864fa0-ed49-4711-8395-a0e6003dca1f
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_is_ca
+ched, value: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: error, va
+lue: 1200
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_all_
+error_tags, value: 513z3|513z3
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_api_e
+rror_code, value: -2147023579
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_clien
+t_binary_version, value: 55
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_auth
+orization_type, value: WindowsIntegratedAuth
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_brok
+er_error_location, value: 513z3
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_a
+pi, value: signinsilently
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_addi
+tional_query_parameters_count, value: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: devicepro
+filetelemetryid, value: 10d85e66c756c1214487ac6a0069de7ff58a1f220294bdbe6749ef70811df914
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_corr
+elation_id, value: 348bf6f0-1e9e-4a93-bed7-93c4d806c704
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_silen
+t_status, value: 0
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_autho
+rity, value: consumers
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: SamplingR
+ate, value: 0.25
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_auth
+ority_type, value: Unknown
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_api_
+error_tag, value: 513z3
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_api_
+status_code, value: StatusInternal::InteractionRequired
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_broke
+r_version, value: 10.0.26100.7920
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: authoutco
+me, value: failed
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_provi
+der_id, value: https://login.microsoft.com
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_wam_a
+ccount_on_start, value: not_supplied
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: promptrea
+soncorrelationid, value: 
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_was_
+request_throttled, value: false
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: errordesc
+ription, value: 
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_wam_b
+lob_version, value: 2
+[316812:319108:0405/185322.307:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: WAM_silen
+t_bi_sub_code, value: 0
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_api_
+error_code, value: 2147943717
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: uploadid,
+ value: d7c917ef-4e68-43b3-9c59-e07aff29945f
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: oneauth_t
+ransactionuploadid, value: 02c3567c-2362-4063-959e-75b058403972
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_clie
+nt_id, value: 82864fa0-ed49-4711-8395-a0e6003dca1f
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: correlati
+onid, value: 348bf6f0-1e9e-4a93-bed7-93c4d806c704
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: errorsour
+ce, value: none
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:193] String type data key: MSAL_stop
+_time, value: 2026-04-05T10:53:22.000Z
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:202] Integer type data key: platform
+, value: 0
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:202] Integer type data key: count, v
+alue: 1
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: durati
+on_min, value: 45
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: durati
+on_max, value: 45
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: endtim
+e, value: 1775386402306
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: durati
+on_sum, value: 45
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:211] Integer64 type data key: startt
+ime, value: 1775386402261
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:220] Bool type data key: FullDataCli
+ent, value: 1
+[316812:319108:0405/185322.308:INFO:components\edge_auth\oneauth\oneauth_config.cc:220] Bool type data key: from_cache,
+ value: 0
+[316812:292464:0405/185322.308:VERBOSE1:chrome\browser\component_updater\widevine_cdm_component_installer.cc:114] Regis
+tering Widevine CDM 4.10.2934.0 with Chrome
+[316812:310692:0405/185322.319:VERBOSE1:net\disk_cache\simple\simple_index_file.cc:609] Simple Cache Index is being res
+tored from disk.
+[316812:307336:0405/185322.319:VERBOSE1:net\disk_cache\simple\simple_index_file.cc:609] Simple Cache Index is being res
+tored from disk.
+[316812:292464:0405/185322.319:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.321:VERBOSE1:components\telemetry_client\telemetry_service.cc:777] NoConsent: Microsoft.WebB
+rowser.Mats.TransactionMicrosoftEdgeWin32 [components\telemetry_client\telemetry_service.cc(228)]
+[316812:292464:0405/185322.321:VERBOSE1:components\telemetry_client\telemetry_service.cc:777] NoConsent: Microsoft.WebB
+rowser.Mats.ActionMicrosoftEdgeWin32 [components\telemetry_client\telemetry_service.cc(228)]
+[316812:292464:0405/185322.321:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:262] Acquirin
+g <PartitionedLockId>{id: 0x31, partition: 0} for Start@chrome\browser\web_applications\generated_icon_fix_manager.cc:6
+2
+[316812:292464:0405/185322.321:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All lock
+s acquired for Start@chrome\browser\web_applications\generated_icon_fix_manager.cc:62
+[316812:292464:0405/185322.335:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.338:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasin
+g <PartitionedLockId>{id: 0x31, partition: 0} requested by Start@chrome\browser\web_applications\generated_icon_fix_man
+ager.cc:62
+[316812:292464:0405/185322.338:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:318] Acquirin
+g <PartitionedLockId>{id: 0x31, partition: 0} for MaybeWebAppUninstalledFromSystem@chrome\browser\web_applications\edge
+_web_app_identity_proxy_manager.cc:442
+[316812:292464:0405/185322.338:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:243] All lock
+s acquired for MaybeWebAppUninstalledFromSystem@chrome\browser\web_applications\edge_web_app_identity_proxy_manager.cc:
+442
+[316812:292464:0405/185322.338:VERBOSE1:chrome\browser\extensions\api\edge_app_pinning_private\app_pinning_helper.cc:32
+9] GetPins, filter: '<invalid>'
+[316812:292464:0405/185322.338:VERBOSE1:chrome\browser\edge_pinned_sites\pinned_sites.cc:356] GetAll start, profile=0x0
+x80c023ac780, pin_location=3
+[316812:292464:0405/185322.351:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.352:VERBOSE1:chrome\browser\web_applications\locks\partitioned_lock_manager.cc:286] Releasin
+g <PartitionedLockId>{id: 0x31, partition: 0} requested by MaybeWebAppUninstalledFromSystem@chrome\browser\web_applicat
+ions\edge_web_app_identity_proxy_manager.cc:442
+[316812:292464:0405/185322.363:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:1058] MutablePO2TS::UpdateCredentials; Refresh Token was absent. account_id=f419f7591249bd23
+[316812:292464:0405/185322.363:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:1086] MutablePO2TS::PersistCredentials for account_id=f419f7591249bd23
+[316812:292464:0405/185322.363:WARNING:components\signin\internal\identity_manager\account_fetcher_service.cc:225] Edge
+ does not support fetching account capabilities
+[316812:292464:0405/185322.363:WARNING:components\signin\internal\identity_manager\account_fetcher_service.cc:189] Shou
+ld not execute: Tests depending on this function may fail
+[316812:292464:0405/185322.363:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.363:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.363:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.363:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.363:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.363:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.363:VERBOSE1:chrome\browser\policy\edge_admin_center\eac_user_policy_signin_service.cc:150] 
+EACUserPolicySigninService refresh token updated for account: f419f7591249bd23
+[316812:292464:0405/185322.363:VERBOSE1:chrome\browser\policy\edge_admin_center\eac_user_policy_signin_service.cc:152] 
+EACUserPolicySigninService primary account: 
+[316812:292464:0405/185322.363:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.363:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.363:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.363:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.363:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.363:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized @gmail.com to @gmail.com
+[316812:292464:0405/185322.364:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.364:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.364:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.364:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized ynstyfynst@gmail.com to yn
+styfynst@gmail.com
+[316812:292464:0405/185322.364:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized ynstyfynst@gmail.com to yn
+styfynst@gmail.com
+[316812:292464:0405/185322.364:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.364:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.364:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.364:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.364:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:321144:0405/185322.364:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] D
+ispatcher.HandleRegistrations.sync.notification = true (2026-04-05 10:53:22.365057 UTC)
+[316812:292464:0405/185322.365:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.365:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized ynstyfynst@gmail.com to yn
+styfynst@gmail.com
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\internal\dispatcher.cc:122] Dispatcher::Registe
+rOnWorkingThread(): channel_ref_count_ = 1
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\internal\dispatcher.cc:347] Dispatcher::CreateC
+hannel()
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] C
+hannel.State = WaitingForAccessToken (2026-04-05 10:53:22.365178 UTC)
+[316812:292464:0405/185322.365:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.ClientId =  (2026-04-05 10:53:22.365222 UTC)
+[316812:292464:0405/185322.365:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized ynstyfynst@gmail.com to yn
+styfynst@gmail.com
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.AuthorizationValue =  (2026-04-05 10:53:22.365255 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.State = Idle (2026-04-05 10:53:22.365283 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.NetworkAvailable = false (2026-04-05 10:53:22.365300 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.HandshakeSucceeded = false (2026-04-05 10:53:22.365310 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.HasMultipleSyncingDevices = -1 (2026-04-05 10:53:22.365322 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] U
+RLProvider.CurrentURLType = kNone (2026-04-05 10:53:22.365336 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] U
+RLProvider.CurrentURL =  (2026-04-05 10:53:22.365346 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] U
+RLProvider.NextURLType = kNone (2026-04-05 10:53:22.365356 UTC)
+[316812:292464:0405/185322.365:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] U
+RLProvider.NextURL =  (2026-04-05 10:53:22.365366 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] U
+RLProvider.CachedURLFailureTimes = 0 (2026-04-05 10:53:22.365391 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] U
+RLProvider.NextURLType = kDefault (2026-04-05 10:53:22.365419 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] U
+RLProvider.NextURL = wss://access-point.cloudmessaging.edge.microsoft.com (2026-04-05 10:53:22.365432 UTC)
+[316812:292464:0405/185322.365:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] W
+ebSocketClient.Implementation = MojoWebSocketClient (2026-04-05 10:53:22.365458 UTC)
+[316812:292464:0405/185322.365:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] W
+ebSocketClient.State = Idle (2026-04-05 10:53:22.365471 UTC)
+[316812:292464:0405/185322.365:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] W
+ebSocketClient.URL =  (2026-04-05 10:53:22.365482 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] W
+ebSocketClient.HeadersCount = 0 (2026-04-05 10:53:22.365511 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] W
+ebSocketClient.Sent = 0 (2026-04-05 10:53:22.365539 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] W
+ebSocketClient.Received = 0 (2026-04-05 10:53:22.365556 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.RetryFailureCount = 0 (2026-04-05 10:53:22.365584 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.RetryBackoffReleaseTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.365601 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] N
+etworkChannel.RetryTimerFireOn = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.365618 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] N
+etworkChannel.NetworkAvailable = true (2026-04-05 10:53:22.365637 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] C
+hannel.Authentication.FetchTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.365653 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] C
+hannel.Authentication.ExpireTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.365669 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] C
+hannel.PingInterval = 0 s (2026-04-05 10:53:22.365684 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] C
+hannel.SupportedFeatures =  (2026-04-05 10:53:22.365708 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] C
+hannel.DroppedTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.365722 UTC)
+[316812:321144:0405/185322.365:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] C
+hannel.RunningOnThread = ThreadPoolForegroundWorker (2026-04-05 10:53:22.365738 UTC)
+[316812:292464:0405/185322.365:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.365:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.366:VERBOSE1:google_apis\gaia\gaia_auth_util.cc:53] Canonicalized ynstyfynst@gmail.com to yn
+styfynst@gmail.com
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\browser\cloud\user_policy_signin_service_base.cc:243] Us
+erPolicySigninServiceBase::InitializeForSignedInUser
+[316812:292464:0405/185322.366:VERBOSE1:chrome\browser\policy\edge_admin_center\eac_user_policy_signin_service.cc:111] 
+EACUserPolicySigninService primary account changed
+[316812:292464:0405/185322.366:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.366:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.366:VERBOSE1:chrome\browser\policy\edge_admin_center\eac_user_policy_signin_service.cc:421] 
+EACUserPolicySigninService initializing for signed in user
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:183] EACP
+olicyManager connecting client 0x80c022f4300
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:183] EACP
+olicyManager connecting client 0x8080002c400
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:183] EACP
+olicyManager connecting client 0x8080002c500
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:99] EACPo
+licyManager refreshing policies, scope=USER reason=19 0x80c022f4300
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_service.cc:41] EACPo
+licyService refreshing policy: scope=USER
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_client.cc:223] EACPo
+licyClient download policy, scope=USER
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_client.cc:298] EACPo
+licyClient downloading policy from: https://clients.config.office.net/user/v1.0/edge/windows/policies/?status=active&ve
+rsion=146.0.3856.97&channel=stable, correlation_id=ae1b891f-989c-459e-868c-2dba11a840d9
+[316812:292464:0405/185322.366:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.366:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:99] EACPo
+licyManager refreshing policies, scope=TOKEN reason=19 0x8080002c400
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_service.cc:41] EACPo
+licyService refreshing policy: scope=TOKEN
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_client.cc:223] EACPo
+licyClient download policy, scope=TOKEN
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_client.cc:238] EACPo
+licyClient no enrollment token, skipping, scope=TOKEN
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_store.cc:291] EACPol
+icyStore clearing policy, scope=TOKEN
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:169] EACP
+olicyManager store loaded, scope=TOKEN
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:130] EACP
+olicyManager skipped publishing policies, waiting_for_policy_refresh_=1 scope=TOKEN
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:145] EACP
+olicyManager refresh complete: success=0, scope=TOKEN 0x8080002c400
+[316812:292464:0405/185322.366:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:117] EACP
+olicyManager publishing policies, scope=TOKEN 0x8080002c400
+[316812:292464:0405/185322.371:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.383:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.SignedIn = false (2026-04-05 10:53:22.384271 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.AccessToken =  (2026-04-05 10:53:22.384328 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.SyncClientId =  (2026-04-05 10:53:22.384340 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.State = Idle (2026-04-05 10:53:22.384354 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.AccessTokenExpireTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.384362 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.FetchStartTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.384376 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.TimeoutTimerFireOn = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.384387 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.RetryFailureCount = 0 (2026-04-05 10:53:22.384397 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.RetryBackoffReleaseTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.384407 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.RetryTimerFireOn = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.384418 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] A
+uthManager.RenewTimerFireOn = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.384428 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.SignedIn = true (2026-04-05 10:53:22.384445 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.SyncClientId = rGNc/G2CTPZ4UojcIx+fhg== (2026-04-05 10:53:22.384472 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\internal\auth\auth_manager_impl.cc:480] State c
+hanged: Idle => Fetching
+[316812:317024:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] N
+etworkChannel.ClientId = rGNc/G2CTPZ4UojcIx+fhg== (2026-04-05 10:53:22.384496 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.State = Fetching (2026-04-05 10:53:22.384498 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.384:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.FetchStartTime = 2026-04-05 10:53:22.384634 UTC (2026-04-05 10:53:22.384634 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.TimeoutTimerFireOn = 2026-04-05 10:58:22.384646 UTC (2026-04-05 10:53:22.384646 UTC)
+[316812:292464:0405/185322.384:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:546] MutablePO2TS::UpdateAuthError. Error: 7 account_id=f419f7591249bd23
+[316812:292464:0405/185322.384:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_client.cc:420] EACPo
+licyClient access token fetch failed: Service unavailable; try again later ()., correlation_id=ae1b891f-989c-459e-868c-
+2dba11a840d9
+[316812:292464:0405/185322.384:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_client.cc:126] EACPo
+licyClient completing download request: data=<empty>, result=4, http_status_or_net_error=0, correlation_id=ae1b891f-989
+c-459e-868c-2dba11a840d9
+[316812:292464:0405/185322.384:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_service.cc:63] EACPo
+licyService policy refreshed: result=4, http_status_or_net_error=0
+[316812:292464:0405/185322.384:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:145] EACP
+olicyManager refresh complete: success=0, scope=USER 0x80c022f4300
+[316812:292464:0405/185322.384:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:117] EACP
+olicyManager publishing policies, scope=USER 0x80c022f4300
+[316812:292464:0405/185322.384:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_service.cc:97] EACPo
+licyService scheduling policy refresh: interval=5 minutes
+[316812:292464:0405/185322.384:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:546] MutablePO2TS::UpdateAuthError. Error: 0 account_id=f419f7591249bd23
+[316812:292464:0405/185322.389:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:546] MutablePO2TS::UpdateAuthError. Error: 0 account_id=f419f7591249bd23
+[316812:292464:0405/185322.389:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.FetchStartTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.390828 UTC)
+[316812:292464:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.TimeoutTimerFireOn = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.390851 UTC)
+[316812:292464:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\internal\auth\auth_manager_impl.cc:480] State c
+hanged: Fetching => Fetched
+[316812:292464:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.State = Fetched (2026-04-05 10:53:22.390879 UTC)
+[316812:292464:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.AccessToken = eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6...TqRgiFI2C.dhimP1u7fK-Bru8ObA4kDQ (2026-04-05 10:53:22.39089
+7 UTC)
+[316812:292464:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] A
+uthManager.AccessTokenExpireTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.390912 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] N
+etworkChannel.AuthorizationValue = aadv2 eyJhbGciOiJSU0EtT0FFUCIsIm...TqRgiFI2C.dhimP1u7fK-Bru8ObA4kDQ (2026-04-05 10:5
+3:22.390926 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] C
+hannel.Authentication.FetchTime = 2026-04-05 10:53:22.390954 UTC (2026-04-05 10:53:22.390954 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] C
+hannel.Authentication.ExpireTime = 1601-01-01 00:00:00.000000 UTC (2026-04-05 10:53:22.390965 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\internal\channel.cc:195] State changed: Waiting
+ForAccessToken => WaitingForNetworkChannel
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] C
+hannel.State = WaitingForNetworkChannel (2026-04-05 10:53:22.390987 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\internal\network_channel\network_channel_impl.c
+c:252] NetworkChannelImpl::Start()
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\internal\network_channel\network_channel_impl.c
+c:230] State changed: Idle => Connecting
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] N
+etworkChannel.State = Connecting (2026-04-05 10:53:22.391007 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] N
+etworkChannel.HasMultipleSyncingDevices = 1 (2026-04-05 10:53:22.391030 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] U
+RLProvider.CurrentURLType = kDefault (2026-04-05 10:53:22.391038 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] U
+RLProvider.CurrentURL = wss://access-point.cloudmessaging.edge.microsoft.com (2026-04-05 10:53:22.391045 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\internal\websocket_client\websocket_client.cc:1
+05] State changed: Idle => Connecting
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] W
+ebSocketClient.State = Connecting (2026-04-05 10:53:22.391061 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] W
+ebSocketClient.URL = wss://access-point.cloudmessaging.edge.microsoft.com (2026-04-05 10:53:22.391068 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] W
+ebSocketClient.HeadersCount = 4 (2026-04-05 10:53:22.391074 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] W
+ebSocketClient.Sent = 0 (2026-04-05 10:53:22.391080 UTC)
+[316812:295064:0405/185322.390:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:52] W
+ebSocketClient.Received = 0 (2026-04-05 10:53:22.391087 UTC)
+[316812:292464:0405/185322.400:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1719] AddKeepAlive(Default, kBrowser
+Window). keep_alives=[kWaitingForFirstBrowserWindow (1), kBrowserWindow (1), kOffTheRecordProfile (1), kExtensionUpdate
+r (1)]
+[316812:292464:0405/185322.400:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1801] ClearFirstBrowserWindowKeepAli
+ve(Default). keep_alives=[kBrowserWindow (1), kOffTheRecordProfile (1), kExtensionUpdater (1)]
+[316812:292464:0405/185322.432:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:520] OnThem
+eChanged() start
+[316812:292464:0405/185322.432:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:357] GetSiz
+edIconImage() start, size=20
+[316812:292464:0405/185322.432:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:504] AddedT
+oWidget() start
+[316812:292464:0405/185322.433:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:76] Closing omnibox pop
+up with reason: kRevertAll
+[316812:292464:0405/185322.436:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:76] Closing omnibox pop
+up with reason: kBrowserWidgetMoved
+[316812:292464:0405/185322.438:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:677] Layout
+() start
+[316812:292464:0405/185322.441:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:520] OnThem
+eChanged() start
+[316812:292464:0405/185322.441:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:357] GetSiz
+edIconImage() start, size=20
+[316812:292464:0405/185322.441:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:357] GetSiz
+edIconImage() start, size=20
+[316812:292464:0405/185322.442:VERBOSE1:chrome\browser\edge_dash\edge_dash_service.cc:228] EdgeDashService::ScheduleRef
+reshForAllTrackers
+[316812:292464:0405/185322.447:VERBOSE1:components\telemetry_client\telemetry_service.cc:777] NoConsent: Microsoft.WebB
+rowser.SystemInfo.Config [components\telemetry_client\telemetry_service.cc(228)]
+[316812:292464:0405/185322.450:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.450:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.457:VERBOSE1:components\edge_entity_extraction\core\browser\entity_extraction_manager.cc:849
+] EntityExtractionManager::AddProactiveObserverForTab- Started
+[316812:292464:0405/185322.457:VERBOSE1:components\edge_entity_extraction\core\browser\entity_extraction_manager.cc:849
+] EntityExtractionManager::AddProactiveObserverForTab- Started
+[316812:292464:0405/185322.457:VERBOSE1:components\edge_coupons\core\browser\coupons_data_manager.cc:1501] CouponsDataM
+anager::IsRewardsUser is_bing_identity_valid_for_enroll_: 0 is_rebates_user_: 0
+[316812:292464:0405/185322.457:VERBOSE1:components\edge_coupons\core\browser\coupons_data_manager.cc:1332] CouponsDataM
+anager::FetchRewardsUserInfo is_bing_identity_valid_for_enroll_: 0 is_rebates_user_: 0
+[316812:292464:0405/185322.457:VERBOSE1:chrome\browser\edge_copilot\controller\jit_assist\jit_assist_handler.cc:139] Pr
+erequisites for Copilot JIT assist not met
+[316812:295064:0405/185322.463:VERBOSE1:chrome\common\importer\edge_importer_reg_utils_win.cc:77] CurrentVersion reg ke
+y is not found or empty
+[316812:295064:0405/185322.463:ERROR:chrome\browser\importer\edge_china_browsers\edge_qqbrowser_importer_utils_win.cc:1
+64] QQBrowser user data path not found.
+[316812:292464:0405/185322.479:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:76] Closing omnibox pop
+up with reason: kRevertAll
+[316812:292464:0405/185322.483:VERBOSE1:chrome\browser\ui\views\frame\windowed_find_bar_focus_proxy_view_win.cc:65] OnW
+idgetActivationChanged - active: 1 focused: 0
+[316812:292464:0405/185322.483:VERBOSE1:chrome\browser\ui\views\frame\windowed_find_bar_focus_proxy_view_win.cc:124] On
+WillChangeFocus
+[316812:292464:0405/185322.484:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:538] OnThem
+eChanged() start, focused_before=0x0, focused_now=0x0x80c02e15410, HasFocus()=false, GetVisible()=false
+[316812:292464:0405/185322.484:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.485:VERBOSE1:components\edge_entity_extraction\core\browser\entity_extraction_manager.cc:849
+] EntityExtractionManager::AddProactiveObserverForTab- Started
+[316812:292464:0405/185322.485:VERBOSE1:components\edge_coupons\core\browser\coupons_data_manager.cc:1501] CouponsDataM
+anager::IsRewardsUser is_bing_identity_valid_for_enroll_: 0 is_rebates_user_: 0
+[316812:292464:0405/185322.485:VERBOSE1:components\edge_coupons\core\browser\coupons_data_manager.cc:1332] CouponsDataM
+anager::FetchRewardsUserInfo is_bing_identity_valid_for_enroll_: 0 is_rebates_user_: 0
+[316812:292464:0405/185322.485:VERBOSE1:chrome\browser\ui\views\frame\windowed_find_bar_focus_proxy_view_win.cc:124] On
+WillChangeFocus
+[316812:292464:0405/185322.485:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:76] Closing omnibox pop
+up with reason: kBlur
+[316812:292464:0405/185322.485:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:538] OnThem
+eChanged() start, focused_before=0x0x80c02e15410, focused_now=0x0x80c03ac2e00, HasFocus()=false, GetVisible()=false
+[316812:292464:0405/185322.490:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:546] MutablePO2TS::UpdateAuthError. Error: 0 account_id=f419f7591249bd23
+[316812:295064:0405/185322.491:VERBOSE1:components\sync\engine\syncer.cc:463] Configuring types Encryption Keys
+[316812:292464:0405/185322.493:VERBOSE1:components\edge_coupons\core\browser\coupons_data_manager.cc:1201] CouponsDataM
+anager::SetIsBingIdentityValidForEnroll is_bing_identity_valid_for_enroll_: 0 value: 0 is_rebates_user_: 0
+[316812:292464:0405/185322.493:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.496:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.497:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.498:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:546] MutablePO2TS::UpdateAuthError. Error: 0 account_id=f419f7591249bd23
+[316812:292464:0405/185322.502:VERBOSE1:components\edge_entity_extraction\content\browser\content_entity_extraction_dri
+ver.cc:1141] ContentEntityExtractionDriver::OnPageAway  page_id: 
+[316812:292464:0405/185322.503:VERBOSE1:components\edge_wallet\core\browser\wallet_checkout_manager.cc:2481] ec-trigger
+ ResetStatus
+[316812:292464:0405/185322.530:VERBOSE1:chrome\browser\edge_dual_engine\dual_engine_navigation_throttle_win.cc:833] Sit
+e doesn't exist on sitelist: url = http://localhost:8080/campus.html
+[316812:292464:0405/185322.530:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.538:VERBOSE1:content\browser\renderer_host\back_forward_cache_impl.cc:890] BackForwardCacheI
+mpl::GetCurrentBackForwardCacheEligibility: about:blank : No: HTTP status is not OK, scheme is not HTTP or HTTPS, Brows
+ing instance is not swapped
+[316812:292464:0405/185322.538:VERBOSE1:content\browser\renderer_host\back_forward_cache_impl.cc:890] BackForwardCacheI
+mpl::GetCompleteBackForwardCacheEligibilityForReporting: about:blank : No: HTTP status is not OK, scheme is not HTTP or
+ HTTPS, Browsing instance is not swapped
+[316812:292464:0405/185322.540:VERBOSE1:components\edge_entity_extraction\content\browser\content_entity_extraction_dri
+ver.cc:1141] ContentEntityExtractionDriver::OnPageAway  page_id: 234c9494-3614-4f30-9ef8-eac34b8000ad
+[316812:292464:0405/185322.542:VERBOSE1:chrome\browser\ui\views\omnibox\omnibox_popup_closer.cc:76] Closing omnibox pop
+up with reason: kRevertAll
+[316812:292464:0405/185322.543:WARNING:chrome\browser\edge_pinned_sites\pinned_sites_cache.cc:237] Cache isn't initiali
+zed
+[316812:292464:0405/185322.552:VERBOSE1:components\edge_wallet\core\browser\wallet_checkout_manager.cc:2481] ec-trigger
+ ResetStatus
+[316812:292464:0405/185322.576:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.576:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.577:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.577:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.578:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.578:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:662] MutablePO2TS::RefreshTokenIsAvailable
+[316812:292464:0405/185322.651:WARNING:chrome\browser\edge_pinned_sites\pinned_sites_cache.cc:237] Cache isn't initiali
+zed
+[316812:292464:0405/185322.651:VERBOSE1:components\edge_entity_extraction\content\browser\content_entity_extraction_dri
+ver.cc:669] ContentEntityExtractionDriver::RegisterPage
+[316812:292464:0405/185322.651:VERBOSE1:components\edge_entity_extraction\core\browser\entity_extraction_manager.cc:193
+] EntityExtractionManager::GetLanguageViaTranslation - URL mismatch. URL for last update from lang detection:  - URL re
+quested by driver: http://localhost:8080/campus.html
+[316812:292464:0405/185322.651:VERBOSE1:components\edge_entity_extraction\content\browser\content_entity_extraction_dri
+ver.cc:703] ContentEntityExtractionDriver::RegisterPage - page_lang: , enhanced page locale via maps and/or lang detect
+ion: zh-cn, page locale: zh-cn
+[316812:292464:0405/185322.652:VERBOSE1:components\edge_entity_extraction\core\browser\entity_extraction_manager.cc:173
+] EntityExtractionManager::OnLanguageDetermined - content_lang: , model_lang:zh-CN, html_root_lang: zh-CN
+[316812:292464:0405/185322.659:WARNING:chrome\browser\edge_pinned_sites\pinned_sites_cache.cc:237] Cache isn't initiali
+zed
+[316812:292464:0405/185322.660:VERBOSE1:chrome\browser\ui\views\frame\windowed_find_bar_focus_proxy_view_win.cc:124] On
+WillChangeFocus
+[316812:292464:0405/185322.660:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:538] OnThem
+eChanged() start, focused_before=0x0x80c03ac2e00, focused_now=0x0x80c0250e000, HasFocus()=false, GetVisible()=false
+[316812:292464:0405/185322.662:VERBOSE1:components\edge_entity_extraction\core\browser\entity_extraction_manager.cc:182
+] EntityExtractionManager::OnTranslateDriverDestroyed
+[316812:292464:0405/185322.662:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.662:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.664:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.664:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.664:VERBOSE1:chrome\browser\ui\views\frame\windowed_find_bar_focus_proxy_view_win.cc:124] On
+WillChangeFocus
+[316812:292464:0405/185322.664:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:538] OnThem
+eChanged() start, focused_before=0x0x80c0250e000, focused_now=0x0, HasFocus()=false, GetVisible()=false
+[316812:292464:0405/185322.664:VERBOSE1:chrome\browser\ui\views\frame\windowed_find_bar_focus_proxy_view_win.cc:65] OnW
+idgetActivationChanged - active: 0 focused: 0
+[316812:292464:0405/185322.671:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1719] AddKeepAlive(Default, kSession
+DataDeleter). keep_alives=[kBrowserWindow (1), kOffTheRecordProfile (1), kSessionDataDeleter (1), kExtensionUpdater (1)
+]
+[316812:292464:0405/185322.676:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:512] Remove
+dFromWidget() start
+[316812:292464:0405/185322.680:VERBOSE1:components\edge_shopping\core\browser\shopping_manager.cc:8347] ShoppingManager
+::FireShoppingSessionTelemetry:{"shoppingSession":{}}
+[316812:292464:0405/185322.682:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.682:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.684:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1780] RemoveKeepAlive(Default, kSess
+ionDataDeleter). keep_alives=[kBrowserWindow (1), kOffTheRecordProfile (1), kExtensionUpdater (1)]
+[316812:292464:0405/185322.685:VERBOSE1:chrome\browser\profiles\profile_manager.cc:1780] RemoveKeepAlive(Default, kBrow
+serWindow). keep_alives=[kOffTheRecordProfile (1), kExtensionUpdater (1)]
+[316812:292464:0405/185322.686:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.686:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.686:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.686:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.691:VERBOSE1:chrome\browser\ui\views\frame\windowed_find_bar_focus_proxy_view_win.cc:65] OnW
+idgetActivationChanged - active: 0 focused: 0
+[316812:292464:0405/185322.695:VERBOSE1:chrome\browser\edge_hub_apps\standalone\standalone_sidebar_manager.cc:358] Stan
+daloneSidebarManager_OnAppTerminating
+[316812:292464:0405/185322.701:VERBOSE1:chrome\browser\ui\views\edge_hub\hub_app_notifications_icon_view.cc:512] Remove
+dFromWidget() start
+[316812:292464:0405/185322.703:VERBOSE1:components\edge_shopping\core\browser\shopping_manager.cc:8347] ShoppingManager
+::FireShoppingSessionTelemetry:{"shoppingSession":{}}
+[316812:292464:0405/185322.703:VERBOSE1:chrome\browser\edge_arbitration_service\arbitration_experience_manager.cc:304] 
+ ArbitrationExperienceManager::RemoveListener Failed. Service instance is null
+[316812:292464:0405/185322.705:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:292464:0405/185322.705:VERBOSE1:content\browser\edge_dual_engine\internet_explorer_session_host_pool_win.cc:24]
+ Session host list contains 0session.
+[316812:295064:0405/185322.774:WARNING:components\sync\engine\syncer_proto_util.cc:669] Error posting from syncer: Resp
+onse Code (bogus on error): -1 Content-Length (bogus on error): -1 X-AFS-Tracking:  Server Status: CONNECTION_UNAVAILAB
+LE
+[316812:307336:0405/185322.774:VERBOSE1:components\edge_cloud_messaging\public\diagnostics\diagnostics_manager.cc:38] D
+ispatcher.HandleRegistrations.sync.notification = false (2026-04-05 10:53:22.774571 UTC)
+[316812:307336:0405/185322.774:VERBOSE1:components\edge_cloud_messaging\internal\dispatcher.cc:172] Dispatcher::Unregis
+terOnWorkingThread(): channel_ref_count_ = 0
+[316812:307336:0405/185322.774:VERBOSE1:components\edge_cloud_messaging\internal\dispatcher.cc:357] Dispatcher::DeleteC
+hannel()
+[316812:295064:0405/185322.774:ERROR:components\sync\engine\get_updates_processor.cc:424] PostClientToServerMessage() f
+ailed during GetUpdates with error Network error (ERR_ABORTED)
+[316812:292464:0405/185322.774:VERBOSE1:components\edge_cloud_messaging\internal\dispatcher.cc:61] Dispatcher::Shutdown
+()
+[316812:292464:0405/185322.774:VERBOSE1:chrome\browser\policy\edge_admin_center\eac_user_policy_signin_service.cc:330] 
+EACUserPolicySigninService shutting down
+[316812:292464:0405/185322.774:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:83] EACPo
+licyManager shutting down, scope=USER
+[316812:292464:0405/185322.774:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:83] EACPo
+licyManager shutting down, scope=TOKEN
+[316812:292464:0405/185322.774:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:83] EACPo
+licyManager shutting down, scope=PROFILE_MACHINE
+[316812:292464:0405/185322.774:VERBOSE1:chrome\browser\actor\aggregated_journal.cc:216] [ActorTool]: ActorKeyedService:
+:StopAllTasks: 
+[316812:292464:0405/185322.774:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:217] AccountReconcilor::Sh
+utdown
+[316812:292464:0405/185322.774:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:672] AccountReconcilor::Ab
+ortReconcile: try again later
+[316812:292464:0405/185322.774:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:784] AccountReconcilor::Ca
+lculateIfMultiloginReconcileIsDone: Error was 
+[316812:292464:0405/185322.774:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:267] AccountReconcilor::Un
+registerWithIdentityManager
+[316812:292464:0405/185322.774:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:244] AccountReconcilor::Un
+registerWithContentSettings
+[316812:292464:0405/185322.774:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:1259] MutablePO2TS::Shutdown
+[316812:292464:0405/185322.774:VERBOSE1:components\signin\internal\identity_manager\mutable_profile_oauth2_token_servic
+e_delegate.cc:450] MutablePO2TS::~MutablePO2TS
+[316812:292464:0405/185322.775:VERBOSE1:components\device_event_log\device_event_log_impl.cc:250] [18:53:22.775] Blueto
+oth: EVENT: bluetooth_api.cc:109 BluetoothAPI: Shutdown
+[316812:292464:0405/185322.775:VERBOSE1:components\sync_user_events\user_event_sync_bridge.cc:77] UserEvents during des
+truction: 0
+[316812:292464:0405/185322.775:VERBOSE1:components\edge_e_drop\core\browser\onedrive\uploader_manager.cc:109] ~Uploader
+Manager called
+[316812:292464:0405/185322.776:VERBOSE1:components\signin\core\browser\account_reconcilor.cc:157] AccountReconcilor::~A
+ccountReconcilor
+[316812:292464:0405/185322.776:VERBOSE1:chrome\browser\security_events\security_event_sync_bridge_impl.cc:66] SecurityE
+vents during destruction: 0
+[316812:292464:0405/185322.776:VERBOSE1:components\consent_auditor\consent_sync_bridge_impl.cc:77] UserConsents during 
+destruction: 2
+[316812:292464:0405/185322.776:VERBOSE1:components\device_event_log\device_event_log_impl.cc:250] [18:53:22.777] Blueto
+oth: EVENT: bluetooth_api.cc:95 ~BluetoothAPI: 0x80c023ac780
+[316812:292464:0405/185322.776:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:83] EACPo
+licyManager shutting down, scope=USER
+[316812:292464:0405/185322.779:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:83] EACPo
+licyManager shutting down, scope=TOKEN
+[316812:292464:0405/185322.779:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:83] EACPo
+licyManager shutting down, scope=PROFILE_MACHINE
+[316812:292464:0405/185322.779:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:83] EACPo
+licyManager shutting down, scope=TOKEN
+[316812:292464:0405/185322.779:VERBOSE1:components\policy\core\common\edge_admin_center\eac_policy_manager.cc:83] EACPo
+licyManager shutting down, scope=PROFILE_MACHINE
+[316812:295064:0405/185322.804:VERBOSE1:components\edge_e_drop\core\browser\sqlite\edge_e_drop_database.cc:700] Init e_
+drop database init inner called
+[316812:295064:0405/185322.804:VERBOSE1:components\edge_e_drop\core\browser\sqlite\edge_e_drop_database.cc:703] Init ED
+rop database init db_path:C:\Users\ynsty\AppData\Local\Temp\HeadlessEdge316812521193000\Default\EdgeEDrop\EdgeEDropSQLi
+te.db
+[316812:295064:0405/185322.804:VERBOSE1:components\edge_e_drop\core\browser\sqlite\edge_e_drop_database.cc:706] Init Cr
+eate the EDrop directory
+[316812:319104:0405/185322.818:VERBOSE1:components\edge_hub_apps\sqlite\edge_hub_app_usage_database.cc:43] ~EdgeHubAppU
+sageDatabase called
+[316812:295064:0405/185322.870:VERBOSE1:components\edge_e_drop\core\browser\sqlite\edge_e_drop_database.cc:694] ~EdgeED
+ropDatabase called
+[316812:292464:0405/185322.871:VERBOSE1:components\component_updater\component_updater_service.cc:188] CrxUpdateService
+ stopping

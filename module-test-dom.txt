@@ -1,0 +1,3 @@
+﻿<!DOCTYPE html>
+<html><head></head><body><div id="app">after</div><script type="module">document.getElementById('app').textContent='after';</script>
+</body></html>
